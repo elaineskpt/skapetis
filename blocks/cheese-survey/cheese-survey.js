@@ -14,8 +14,8 @@ export default async function init(el) {
 
   submit.addEventListener('click', async function formSubmit(ev) {
     ev.preventDefault();
-    const { contentRoot } = getConfig();
-    const send = await fetch(`${contentRoot}/preferences`, {
+    const { codeRoot } = getConfig();
+    const send = await fetch(`${codeRoot}/preferences`, {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json',
