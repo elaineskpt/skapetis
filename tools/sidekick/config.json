@@ -53,7 +53,7 @@
         "live"
       ],
       "event": "preflight"
-    },
+    },  
     {
       "containerId": "tools",
       "id": "locales",
@@ -72,6 +72,16 @@
       "includePaths": [
         "**.docx**"
       ]
+    },
+    {
+      "title": "Academy",
+      "id": "academy",
+      "environments": [
+        "dev",
+        "preview",
+        "live"
+      ],
+      "event": "academy"
     }
   ]
 }
